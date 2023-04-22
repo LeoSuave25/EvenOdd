@@ -10,3 +10,5 @@ with open('numbers.txt','r') as rawinput_text, open('even.txt','w') as output_ev
             output_even.write(str(number)+'\n')
 #The second text file will be named odd.txt that will
 #It will contain all odd numbers extracted from the numbers.txt
+        else:
+            output_odd.write(str(number)+'\n')
